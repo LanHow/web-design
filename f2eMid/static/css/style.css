@@ -5,10 +5,9 @@ html{
     margin: 0;
     padding: 0;
     /* background-image: url(../image/sky2.jpg); */
-    background: url(../image/sky2.jpg);
+    background: url(../img/sky2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 
@@ -19,18 +18,19 @@ iframe{
 
 .container-all{
     max-width: 100%;
-    height: 250%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     /* background-color: rgb(211, 227, 228); */
-    
+    box-sizing: border-box;
+    overflow: auto;
 }
 
 .content-area{
     margin-top: 30px;
     display: flex;
-    /* height: 100%; */
-    /* background-color: rgb(211, 227, 228); */
+    /* overflow: auto; */
+    height: fit-content;
 }
 
 .header{
@@ -50,17 +50,14 @@ iframe{
 
 .header-slogan{
     margin: 0px;
-    /* padding-left: 30px;
-    padding-bottom: 10px; */
     padding: 5px 0px 20px 30px;
     font-weight: 600;
 }
 
 .aside{
     width: 15%;
-    height: 40%;
+    height: 80%;
     background-color: azure;
-    /* margin-right: 20px; */
 }
 
 .aside-title{
@@ -100,10 +97,12 @@ iframe{
 
 .main-row{
     width: 100%;
-    height: 20%;
+    height: 40%;
     /* border-style: solid; */
     border-width: 1px;
     display: flex;
+    /* margin-bottom: 3%; */
+    flex-wrap: wrap;
 }
 
 .main-introduce-photo{
@@ -112,63 +111,64 @@ iframe{
 
 .main-introduce{
     width: 60%;
-    /* padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 30px; */
     margin-top: 30px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 50px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 3%;
-    height: 60%;
+    padding-top: 2%;
+    height: auto;
     background-color: azure;
     font-size: 18px;
 }
 
 .main-photo{
     width: 70%;
-    height: 30%;
+    height: 80%;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 30px;
 }
 
 .main-introduce-map{
-    padding-top: 10%;
+    padding-top: 5%;
+    /* border-style: solid; */
     width: 60%;
-    height: 60%;
+    height: 80%;
     margin-left: 20%;
     margin-right: 20%;
+    padding-bottom: 5%;
     font-size: 16px;
     text-align: center;
-    /* display: flexbox; */
+    box-sizing: border-box;
 }
 
 .main-row-title{
     width: 100%;
-    height: 2%;
+    height: 5%;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
     letter-spacing: 20px;
-    padding: 15px 0 0 0;
+    padding: 15px 0 15px 0;
     background-color: rgb(236, 162, 166);
 }
 
 .main-row-col{
     /* border-style: solid; */
-    width: 25%;
-    height: 90%;
+    width: 24%;
+    height: 100%;
     /* display: flex; */
     margin-right: 0.5%;
     margin-left: 0.5%;
+    margin-bottom: 3%;
 }
 
 .col-photo{
     /* border-style: solid; */
     max-width: 100%;
-    height: 75%;
+    height: 30%;
 }
 
 .describe-title{
@@ -181,9 +181,10 @@ iframe{
 }
 
 .footer{
-    height: 2%;
-    font-size: 20px;
+    height: 20px;
+    font-size: 16px;
     padding-top: 20px;
     padding-left: 30px;
-    background-color: dimgray;
+    padding-bottom: 10px;
+    background-color: rgb(230, 200, 221);
 }
