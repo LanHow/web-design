@@ -12,15 +12,22 @@
 <body>
     <div class="container-all">
         <header class="header">
-            <h1 class="header-title">Travel web</h1>
-            <p class="header-slogan">全台最大旅遊景點平台</p>
+            <div class="header-row">
+                <div class="header-col">
+                    <a href="{{url_for('index')}}" class="header-a"><img src="../static/img/world.png" alt="" class="header-icon"></a>
+                    <p class="header-slogan">全世界最大旅遊景點平台</p> 
+                </div>
+                <div class="header-col">
+
+                </div>
+            </div>
         </header>
         <div class="main-show">
             <aside class="aside">
                 <div class="aside-title">
                     旅遊頻道
                 </div>
-                <a href="./region1.html" class="aside-link">
+                <a href="{{url_for('index')}}" class="aside-link">
                     <div class="aside-content">
                         臺灣
                     </div>
@@ -67,19 +74,19 @@
         </div>
         <div class="block">
             <div class="img-list">
-                <img src="../static/img/4.jpg">
-                <img src="../static/img/4.jpg">
-                <img src="../static/img/4.jpg">
+                <img src="../static/img/Bangkok.jpg">
+                <img src="../static/img/australia.jpg">
+                <img src="../static/img/paris.jpg">
             </div>
         </div>
         <div class="block">
             <div class="img-list">
-                <img src="../static/img/4.jpg">
-                <img src="../static/img/4.jpg">
-                <img src="../static/img/4.jpg">
+                <img src="../static/img/middle1.jpg">
+                <img src="../static/img/korea.jpg">
+                <img src="../static/img/taipei.jpg">
             </div>
         </div>
-        <footer>
+        <footer class="footer">
             copyright 2019
         </footer>
     </div>

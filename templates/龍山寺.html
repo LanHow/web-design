@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/normalize.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+    <title>Travel</title>
+</head>
+<body>
+    <div class="container-all">
+        <header class="header">
+            <div class="header-row">
+                <div class="header-col">
+                    <a href="{{url_for('index')}}"  class="header-a"><img src="../static/img/world.png" alt="" class="header-icon"></a>
+                    <p class="header-slogan">全世界最大旅遊景點平台</p> 
+                </div>
+                <div class="header-col">
+
+                </div>
+            </div>
+        </header>
+
+        <div class="content-area">
+            <aside class="aside">
+                <div class="aside-title">
+                    台灣頻道
+                </div>
+                <a href="{{url_for('doublepei')}}" class="aside-link">
+                    <div class="aside-content">
+                        雙北
+                    </div>
+                </a>
+                <a href="{{url_for('taoyuan')}}" class="aside-link">
+                    <div class="aside-content">
+                        桃園
+                    </div>
+                </a>
+                <a href="{{url_for('hsinju')}}" class="aside-link">
+                    <div class="aside-content">
+                        新竹
+                    </div>
+                </a>
+                <a href="./city4.html" class="aside-link">
+                    <div class="aside-content">
+                        台中
+                    </div>
+                </a>
+                <a href="./city5.html" class="aside-link">
+                    <div class="aside-content">
+                        嘉義
+                    </div>
+                </a>
+                <a href="./city6.html" class="aside-link">
+                    <div class="aside-content">
+                        台南
+                    </div>
+                </a>
+                <a href="./city7.html" class="aside-link">
+                    <div class="aside-content">
+                        高雄
+                    </div>
+                </a>
+                <a href="{{url_for('news')}}" class="aside-link">
+                    <div class="aside-content">
+                        最新消息
+                    </div>
+                </a>
+            </aside>
+            <article class="main-area">
+                <div class="main-row-title">
+                    台北-龍山寺
+                </div>
+                <div class="main-introduce-photo">
+                    <img src="../static/img/龍山寺_1.JPG" alt="photo1" class="main-photo">
+                    <img src="../static/img/龍山寺_2.JPG" alt="photo2" class="main-photo">
+                    <img src="../static/img/龍山寺_3.JPG" alt="photo3" class="main-photo">
+                    <img src="../static/img/龍山寺_4.JPG" alt="photo4" class="main-photo">
+                </div>
+                <div class="main-introduce">
+                    　　初創之龍山寺，規模雄偉，雕塑精緻，歷經嘉慶二十年（西元1815年）大地震重修，同治六年（西元1867年）暴風雨侵襲再行修築，
+                    至民國八年棟樑遭白蟻蛀蝕，當時住持福智大師率先捐出一生積蓄七千餘元，集資修復，奠定今日龍山寺之規模。民國卅四年於第二次世界大戰期間受空襲摧殘，
+                    中殿全毀，惟觀世音菩薩聖像仍端坐蓮臺，寶相莊嚴；以往遇有空襲，居民皆以觀世音菩薩蓮座下為避難所，然此次空襲前夕，
+                    避難居民因不堪兇蚊肆虐紛紛返家，以致中殿受毀時無人受難，居民相信是觀世音菩薩庇護而奔相走告，此一神蹟更使得觀世音菩薩成為艋舺居民一大精神支柱。
+                    <br><br>
+                    　　民國七十四年政府公告艋舺龍山寺為國家保護之二級古蹟，與國立故宮博物院、中正紀念堂並列為國際觀光客來臺旅遊的三大名勝。
+                    龍山寺並於板橋文化路興建文化廣場大樓，民國九十四年落成啟用後，辦理多項課程與講座，以善盡弘揚佛法、提倡社教的文化價值。
+                    艋舺龍山寺每年定期舉辦節慶祭典及民俗活動，如農曆正月花燈展覽、四月浴佛節、七月盂蘭盆勝會等，民眾來到艋舺龍山寺除了欣賞臺灣寺廟建築藝術之美，
+                    亦可以感受傳統民俗文化的樂趣。
+                    <br><br>
+                    自行開車：
+                    <br>
+                    1.國道1號-臺北交流道下-省道臺2乙線-民族西路-環河快速道路-桂林路-西園路一段-廣州街。<br>
+                    2.國道3號-中和交流道下-縣道106甲線-鄉道北91線-縣道114線-光復橋-西園路二段至一段-廣州街。<br>
+                    <br>
+                    大眾運輸：<br>
+                    1.搭高鐵至臺北站下-轉搭臺北捷運至龍山寺站下。<br>
+                    2.搭臺鐵至萬華站下。
+                    <br>
+                    <div class="main-introduce-map">
+                        地點:龍山寺<br>
+                        地址:台北市萬華區廣州街211號<br>
+                        相關連結:http://lungshan.org.tw/tw/index.php
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.9089950420557!2d121.49771201484191!3d25.037162283970897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9a8d7e7de09%3A0xf8e8335e58c41c8a!2z6b6N5bGx5a-6!5e0!3m2!1szh-TW!2stw!4v1555533092739!5m2!1szh-TW!2stw" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    
+                </div>
+            </article>
+        </div> 
+
+        <footer class="footer">
+            <div>
+                copyright2019
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>
