@@ -12,7 +12,7 @@
         <header class="header">
             <div class="header-row">
                 <div class="header-col">
-                    <a href="./index.html" class="header-a"><img src="../static/img/world.png" alt="" class="header-icon"></a>
+                    <a href="{{url_for('index')}}"  class="header-a"><img src="../static/img/world.png" alt="" class="header-icon"></a>
                     <p class="header-slogan">全世界最大旅遊景點平台</p> 
                 </div>
                 <div class="header-col">
@@ -26,17 +26,17 @@
                 <div class="aside-title">
                     台灣頻道
                 </div>
-                <a href="./雙北.html" class="aside-link">
+                <a href="{{url_for('doublepei')}}" class="aside-link">
                     <div class="aside-content">
                         雙北
                     </div>
                 </a>
-                <a href="./桃園.html" class="aside-link">
+                <a href="{{url_for('taoyuan')}}" class="aside-link">
                     <div class="aside-content">
                         桃園
                     </div>
                 </a>
-                <a href="./新竹.html" class="aside-link">
+                <a href="{{url_for('hsinju')}}" class="aside-link">
                     <div class="aside-content">
                         新竹
                     </div>
@@ -61,7 +61,7 @@
                         高雄
                     </div>
                 </a>
-                <a href="./news.html" class="aside-link">
+                <a href="{{url_for('news')}}" class="aside-link">
                     <div class="aside-content">
                         最新消息
                     </div>
@@ -69,118 +69,11 @@
             </aside>
             <article class="main-area">
                 <div class="main-row-title">
-                    雙北景點推薦
+                    桃園景點
                 </div>
                 <div class="main-row">
                     <div class="main-row-col">
-                        <a href="./龍山寺.html" class="row-col-ref">
-                            <img src="../static/img/1.jpg" alt="photo1" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                                龍山寺
-                            </div>
-                            興建於1738年經歷許多次天災人禍的摧毀、重建
-                            至今不僅是日、韓觀光客必去之地
-                            也依舊是台灣人重要的信仰寄託之地
-                        </div>
-                    </div>
-                    <div class="main-row-col">
-                        <a href="./動物園.html" class="row-col-ref">
-                            <img src="../static/img/2.jpg" alt="photo2" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                                台北市立動物園
-                            </div>
-                            大熊貓、無尾熊、企鵝、草原動物、熱帶動物一網打盡
-                            各種動物的介紹說明也很清晰
-                            簡直是寓教於樂、老少咸宜的最佳選擇
-                        </div>
-                    </div>
-                    <div class="main-row-col">
-                        <a href="./page1.html" class="row-col-ref">
-                            <img src="../static/img/3.jpg" alt="photo3" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                                深坑老街
-                            </div>
-                            雖然短短200公尺的老街
-                            但百年的歷史建築超值得一訪
-                            最叫人流連忘返的，就是臭豆腐
-                        </div>
-                    </div>
-                    <div class="main-row-col">
-                        <a href="./page1.html" class="row-col-ref">
-                            <img src="../static/img/4.jpg" alt="photo4" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                                貓空纜車
-                            </div>
-                            貓空纜車可以帶你去山上喝茶看夜景
-                            就算你不想去喝茶，上了山什麼都不想做
-                            相信我，纜車途中的夜景真的就夠美了
-                        </div>
-                    </div>
-                
-                    <div class="main-row-col">
-                        <a href="./page1.html" class="row-col-ref">
-                            <img src="../static/img/5.jpg" alt="photo5" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                                剝皮寮歷史街區
-                            </div>
-                            這裡閩南式和巴洛克式的古建築意外地被完整保留
-                            現在街區常有展覽活動，也是電影、外拍愛好的場地喔
-                        </div>
-                    </div>
-                    <div class="main-row-col">
-                        <a href="./九份.html" class="row-col-ref">
-                            <img src="../static/img/6.jpg" alt="photo6" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                             九份老街
-                            </div>
-                            無論何時皆有絡繹不絕的人潮，
-                            小吃芋仔番薯、九份第一家茶坊以及九份文史工作室都設置於此，
-                            還有觀景台可遠眺海景
-                        </div>
-                    </div>
-                    <div class="main-row-col">
-                        <a href="./page1.html" class="row-col-ref">
-                            <img src="../static/img/7.jpg" alt="photo6" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                                千島湖
-                            </div>
-                            石碇的秘境之一，天然的登山步道周圍種植了許多的茶樹，
-                            讓人可以一邊享受優美的風景搭配茶樹的清香
-                        </div>
-                    </div>
-                    <div class="main-row-col">
-                        <a href="./page1.html" class="row-col-ref">
-                            <img src="../static/img/8.jpg" alt="photo6" class="col-photo">
-                        </a>
-                        <div class="main-row-col-describe">
-                            <div class="describe-title">
-                                北投圖書館
-                            </div>
-                            位於北投溫泉公園內，建築的造形非常引人注目，
-                            除了是當地人讀書的地方同時也是來北投公園的遊客們休息的好去處
-                        </div>
-                    </div>
-                </div>
-                <div class="main-row-title">
-                    桃園景點推薦
-                </div>
-                <div class="main-row">
-                    <div class="main-row-col">
-                        <a href="./大溪老街.html" class="row-col-ref">
+                        <a href="{{url_for('daxi')}}" class="row-col-ref">
                             <img src="../static/img/大溪老街_0.jpg" alt="photo9" class="col-photo">
                         </a>
                         <div class="main-row-col-describe">
