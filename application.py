@@ -9,25 +9,25 @@ def news():
     return render_template('news.html')
 
 def jiofeng():
-    return render_template('九份.html')
+    return render_template('jiofeng.html')
 
 def zoo():
-    return render_template('動物園.html')
+    return render_template('zoo.html')
 
 def daxi():
-    return render_template('大溪老街.html')
+    return render_template('daxi.html')
 
 def hsinju():
-    return render_template('新竹.html')
+    return render_template('hsinju.html')
 
 def taoyuan():
-    return render_template('桃園.html')
+    return render_template('taoyuan.html')
 
 def doublepei():
-    return render_template('雙北.html')
+    return render_template('doublepei.html')
 
 def longshantemple():
-    return render_template('龍山寺.html')
+    return render_template('longshantemple.html')
 
 application.add_url_rule('/', view_func=index)
 application.add_url_rule('/news', view_func=news)
