@@ -34,6 +34,7 @@ iframe{
 }
 
 .header{
+    opacity: 0.8;
     background-color: rgb(230, 200, 221);
 }
 
@@ -99,6 +100,10 @@ iframe{
     border-color: black;
     border-width: 1px;
     opacity: 0.65;
+}
+
+.aside-content:hover{
+    background-color: rgb(77, 205, 209);
 }
 
 .aside-link:link{
