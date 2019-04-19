@@ -40,5 +40,4 @@ application.add_url_rule('/doublepei', view_func=doublepei)
 application.add_url_rule('/longshantemple', view_func=longshantemple)
 
 if __name__ == '__main__':
-	#application.debug = True
     application.run()
